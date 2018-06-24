@@ -1,0 +1,18 @@
+{
+  "name": "har-replayer",
+  "version": "0.1.0",
+  "description": "Express middleware for replaying a HAR archive of HTTP requests",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Alexandros Katechis",
+    "email": "akatechis@gmail.com"
+  },
+  "license": "MIT"
+}
