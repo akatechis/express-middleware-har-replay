@@ -18,11 +18,11 @@ const create = (entries, match) => {
 const keyFromEntry = entry => {
   const method = entry.request.method
   const path = url.parse(entry.request.url).pathname
-  return method + " " + path
+  return method + ' ' + path
 }
 
 const keyFromRequest = req => {
-  return req.method + " " + req.path
+  return req.method + ' ' + req.path
 }
 
 module.exports = {

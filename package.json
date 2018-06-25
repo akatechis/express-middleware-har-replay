@@ -14,8 +14,20 @@
   "peerDependencies": {
     "express": "^4.0.0"
   },
+  "scripts": {
+    "test": "mocha --opts mocha.opts ./tests/**/*.test.js",
+    "dev": "mocha --opts mocha.opts ./tests/**/*.test.js --watch",
+    "test-debug": "mocha --inspect-brk --opts mocha.opts ./tests/**/*.test.js"
+  },
   "license": "MIT",
   "devDependencies": {
-    "jest": "^23.1.0"
+    "express": "^4.16.3",
+    "mocha": "^5.2.0",
+    "standard": "^11.0.1",
+    "superagent": "^3.8.3",
+    "supertest": "^3.1.0"
+  },
+  "dependencies": {
+    "chai": "^4.1.2"
   }
 }

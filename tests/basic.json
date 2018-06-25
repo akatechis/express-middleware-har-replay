@@ -1,0 +1,199 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "WebInspector",
+      "version": "537.36"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2018-06-22T23:16:07.848Z",
+        "id": "page_16",
+        "title": "http://example.com",
+        "pageTimings": {
+          "onContentLoad": 942.7069999510422,
+          "onLoad": 1223.4539999626577
+        }
+      }
+    ],
+    "entries": [{
+      "startedDateTime": "2018-06-22T23:16:08.927Z",
+      "time": 226.30806201067753,
+      "request": {
+        "method": "GET",
+        "url": "http://example.com/api/foo/bar",
+        "httpVersion": "http/1.1",
+        "headers": [
+          {
+            "name": "Accept",
+            "value": "application/json, text/plain, */*"
+          },
+          {
+            "name": "Origin",
+            "value": "http://example.com"
+          },
+          {
+            "name": "Referer",
+            "value": "http://example.com"
+          },
+          {
+            "name": "User-Agent",
+            "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+          },
+          {
+            "name": "DNT",
+            "value": "1"
+          }
+        ],
+        "queryString": [],
+        "cookies": [],
+        "headersSize": -1,
+        "bodySize": 0
+      },
+      "response": {
+        "status": 200,
+        "statusText": "OK",
+        "httpVersion": "http/1.1",
+        "headers": [
+          {
+            "name": "Pragma",
+            "value": "no-cache"
+          },
+          {
+            "name": "Date",
+            "value": "Fri, 22 Jun 2018 23:16:05 GMT"
+          },
+          {
+            "name": "Content-Type",
+            "value": "application/json; charset=utf-8"
+          },
+          {
+            "name": "Cache-Control",
+            "value": "no-cache"
+          },
+          {
+            "name": "Content-Length",
+            "value": "14"
+          },
+          {
+            "name": "Expires",
+            "value": "-1"
+          },
+          {
+            "name": "X-Some-Custom-Header",
+            "value": "custom-token-foo-bar"
+          }
+        ],
+        "cookies": [],
+        "content": {
+          "size": 14,
+          "mimeType": "application/json",
+          "text": "{\"foo\": \"bar\"}"
+        },
+        "redirectURL": "",
+        "headersSize": -1,
+        "bodySize": -1,
+        "_transferSize": 1744
+      },
+      "cache": {},
+      "timings": {
+        "blocked": 17.797061999963596,
+        "dns": -1,
+        "ssl": -1,
+        "connect": -1,
+        "send": 0.06800000000000139,
+        "wait": 202.6879999614656,
+        "receive": 5.755000049248338,
+        "_blocked_queueing": 4.061999963596463
+      },
+      "pageref": "page_16"
+    }, {
+      "startedDateTime": "2018-06-22T23:16:08.927Z",
+      "time": 226.30806201067753,
+      "request": {
+        "method": "GET",
+        "url": "http://donotwant.com/api/hello/world",
+        "httpVersion": "http/1.1",
+        "headers": [
+          {
+            "name": "Accept",
+            "value": "application/json, text/plain, */*"
+          },
+          {
+            "name": "Origin",
+            "value": "http://example.com"
+          },
+          {
+            "name": "Referer",
+            "value": "http://example.com"
+          },
+          {
+            "name": "User-Agent",
+            "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36"
+          },
+          {
+            "name": "DNT",
+            "value": "1"
+          }
+        ],
+        "queryString": [],
+        "cookies": [],
+        "headersSize": -1,
+        "bodySize": 0
+      },
+      "response": {
+        "status": 200,
+        "statusText": "OK",
+        "httpVersion": "http/1.1",
+        "headers": [
+          {
+            "name": "Pragma",
+            "value": "no-cache"
+          },
+          {
+            "name": "Date",
+            "value": "Fri, 22 Jun 2018 23:16:05 GMT"
+          },
+          {
+            "name": "Content-Type",
+            "value": "application/json; charset=utf-8"
+          },
+          {
+            "name": "Cache-Control",
+            "value": "no-cache"
+          },
+          {
+            "name": "Content-Length",
+            "value": "14"
+          },
+          {
+            "name": "Expires",
+            "value": "-1"
+          }
+        ],
+        "cookies": [],
+        "content": {
+          "size": 14,
+          "mimeType": "application/json",
+          "text": "{\"foo\": \"bar\"}"
+        },
+        "redirectURL": "",
+        "headersSize": -1,
+        "bodySize": -1,
+        "_transferSize": 1744
+      },
+      "cache": {},
+      "timings": {
+        "blocked": 17.797061999963596,
+        "dns": -1,
+        "ssl": -1,
+        "connect": -1,
+        "send": 0.06800000000000139,
+        "wait": 202.6879999614656,
+        "receive": 5.755000049248338,
+        "_blocked_queueing": 4.061999963596463
+      },
+      "pageref": "page_16"
+    }]
+  }
+}
