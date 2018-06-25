@@ -1,6 +1,8 @@
 # express-middleware-har-replay
 Express middleware for replaying a HAR archive of HTTP requests
 
+[![Build Status](https://travis-ci.org/akatechis/express-middleware-har-replay.svg?branch=master)](https://travis-ci.org/akatechis/express-middleware-har-replay)
+
 ## Description
 This middleware will let you create a server that replays requests captured in
 a HAR file.
