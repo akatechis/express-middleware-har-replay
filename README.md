@@ -34,4 +34,3 @@ and later, dispatching a GET request to `http://localhost:8080/foo/bar/baz`.
 - Publish ES5 code so it works on older versions of Node.
 - More control over which requests to replay and how.
 - Handle multiple requests to the same endpoint with different responses.
-- Write tests.
