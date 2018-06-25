@@ -1,11 +1,11 @@
 {
-  "name": "har-replayer",
+  "name": "express-middleware-har-replay",
   "version": "0.1.0",
   "description": "Express middleware for replaying a HAR archive of HTTP requests",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/akatechis/har-replayer.git"
+    "url": "https://github.com/akatechis/express-middleware-har-replay.git"
   },
   "author": {
     "name": "Alexandros Katechis",

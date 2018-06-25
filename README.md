@@ -1,4 +1,4 @@
-# har-replayer
+# express-middleware-har-replay
 Express middleware for replaying a HAR archive of HTTP requests
 
 ## Description
@@ -7,10 +7,10 @@ a HAR file.
 
 ## Usage
 
-`npm install har-replayer`
+`npm install express-middleware-har-replay`
 
 ```
-const harreplayer = require('har-replayer')
+const harreplayer = require('express-middleware-har-replay')
 const app = express()
 app.use(harreplayer({
   match: 'somehost.com',
